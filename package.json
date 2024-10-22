@@ -7,17 +7,27 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "api": "json-server data.json -p 5050 -d 500 --watch"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "flowbite": "^2.5.1",
+    "html2pdf.js": "^0.10.2",
+    "ldrs": "^1.0.2",
+    "lodash": "^4.17.21",
+    "print-js": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.53.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.1",
+    "react-use-cookie": "^1.6.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.14.1",
     "swr": "^2.2.5",
-    "zustand": "^4.5.5",
-    "api":"json-server data.json --port 5050 --delay 500 --watch"
-
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
